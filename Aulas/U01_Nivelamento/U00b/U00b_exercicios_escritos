@@ -1,0 +1,56 @@
+Nome: Camila Moreira Lopes
+Matrícula: 689172
+
+
+Exercício 05 - pg. 4
+	O código utiliza de operadores lógicos || (OU), comparando uma variável 'v' com 10 números que na tabela ASCII são vogais e afirma com um operador lógico se existe ou não vogais. 
+	
+Exercício 06 - pg. 5
+	O código afirma se existe ou não vogal por meio de um valor booleano.
+
+Exercício 07 - pg. 7
+boolean isConsoante(String s, int n){
+	boolean resp = true;
+	if (n != s.length()){
+		if (s.charAt(n) < '0' || s.charAt(n) > '9'){
+			if (isVogal(s.charAt(n)) == true){
+				resp= false;
+			} else{
+				resp=isConsoante(s, n + 1);
+			}
+		} else {
+			resp=false;
+		}
+	}
+	return resp;
+}
+
+Exercício 08 - pg. 15										
+boolean isConsoante(String s, int i){
+	boolean resp = true;
+	if (i < s.length()){
+		if (isConsoante(s.charAt(i)) == false){
+			resp = false;
+		} else {
+			resp = isConsoante(s, i + 1);
+		}
+	}	
+	return resp;
+}
+
+Exercício 09 - pg.16
+	Ambos os códigos possuem a mesma complexidade de entendimento, entretanto o código da direita, visualmente, é mais rápido para se entender.
+
+Exercício 10 - pg. 17
+	O código apresenta nomeclatura de variáveis e métodos muito longos, dificultando o seu entendimento. 
+	
+Exercício 11 - pg. 18
+	O primeiro método executa a decrementação após à variável faz com que a subtração ocorra após a instrução que está atuando, o segundo método executa a decrementação antes da variável faz com que a subtração ocorra durante a instrução que está atuando.
+	
+Exercício 12 - pg. 19
+	O programa demonstra o tamanho máximo e mínimo de cada tipo de variável apresentada (byte, short, int e long).
+	
+Exercício 13 - pg. 20
+	Pois os valores modificados são os valores binários do número, no qual quando utilizado '>>' (shift left) é deslocado os bits para a direita inserindo um zero na extremidade de mesma direção, gerando na prática uma divisão por 2. Já quando utilizado '<<' (shift right) é deslocado os bits para a esquerda inserindo um zero na extremidade de mesma direção, gerando na prática uma multiplicação por 2.
+	
+Exercício 

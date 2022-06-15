@@ -1,0 +1,19 @@
+01 - Faça um programa que leia a nota de 5 alunos e mostre na tela a média
+das mesmas
+
+02 - Faça um programa que mostre os 10 primeiros números inteiros positivos.
+
+03 - Faça um programa que leia um número inteiro N e mostre na tela os N
+primeiros números inteiros ímpares.
+
+04 - Faça um programa que leia um número inteiro N e mostre na tela os N
+primeiros números da sequência 1, 5, 12, 16, 23, 27 34.
+
+05 - Faça um programa que leia um número inteiro N indicando a nota máxima
+em uma prova P. Em seguida, leia a nota de 20 alunos (entre 0 e N) e
+mostre na tela: (i) a média da turma, (ii) o número de alunos cuja nota foi
+menor que a média da Universidade (suponha 60%) e (iii) a quantidade de
+alunos com conceito A (mais de 90%).
+
+06 - Faça um programa que leia um número inteiro n e mostre na tela o n-ésimo
+termo da sequência de Fibonacci
